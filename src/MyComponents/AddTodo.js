@@ -5,16 +5,15 @@ export const AddTodo = () => {
         <div className='container my-3'>
             <h3>Add a Todo</h3>
             <form>
-                <div class="mb-3">
-                    <label for="title" class="form-label">Todo Title</label>
-                    <input type="email" class="form-control" id="title" aria-describedby="emailHelp"/>
-                        <div id="emailHelp" class="form-text"></div>
+                <div className="mb-3">
+                    <label htmlFor="title" className="form-label">Todo Title</label>
+                    <input type="text" className="form-control" id="title" aria-describedby="emailHelp"/>
                 </div>
-                <div class="mb-3">
-                    <label for="description" class="form-label">Todo Description</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1"/>
+                <div className="mb-3">
+                    <label htmlFor="description" className="form-label">Todo Description</label>
+                    <input type="text" className="form-control" id="description"/>
                 </div>
-                <button type="submit" class="btn btn-sm btn-success">Submit</button>
+                <button type="submit" className="btn btn-sm btn-success">Add ToDo</button>
             </form>
         </div>
     )
