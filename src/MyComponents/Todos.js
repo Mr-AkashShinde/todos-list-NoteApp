@@ -3,7 +3,7 @@ import { TodoItem } from './TodoItem'
 
 export const Todos = (props) => {
   const myStyle = {
-    marginBottom: "100px"
+    marginBottom: "120px"
   }
   return ( 
     <div className='container ' style={myStyle}>

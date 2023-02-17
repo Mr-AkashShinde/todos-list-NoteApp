@@ -9,7 +9,9 @@ export const Footer = () => {
     return ( 
         <footer className="bg-dark text-light py-3 " style={footerStyle}>
             <p className="text-center">
-                Copyright &copy; Notes For Students
+                Made with ♥ by Akash Shinde
+
+                <br/>Copyright &copy; Notes For Students
             </p>
         </footer>
     )
